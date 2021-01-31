@@ -1,0 +1,540 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+#include "winres.h"
+/////////////////////////////////////////////////////////////////////////////
+// Portuguese (Brazil) resources
+
+// #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
+// LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "EditorTRK_003.ico"
+
+1 VERSIONINFO
+FILEVERSION 0, 1, 1, 1
+PRODUCTVERSION 0, 1, 1, 1
+FILETYPE VFT_APP
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "041604E4"
+        {
+            VALUE "CompanyName", "TRK Tecnologies"
+            VALUE "FileVersion", "0.01"
+            VALUE "FileDescription", "Visualizador de Imagens"
+            VALUE "InternalName", "Imagem View"
+            VALUE "LegalCopyright", "TRK Tecnologies"
+            VALUE "LegalTrademarks", "Copyleft © TRK Tecnologies"
+            VALUE "OriginalFilename", "Targa View"
+            VALUE "ProductName", "Imagem View"
+            VALUE "ProductVersion", "0.0.1"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0416, 1252
+    }
+}
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+#ifdef _PT_BR
+IDR_MYMENU MENU
+{
+    POPUP "&Arquivo"
+    {
+        MENUITEM "&Abrir",                              ID_FILE_OPEN
+        MENUITEM SEPARATOR
+            //MENUITEM "&Salvar",                       ID_FILE_SAVE
+            //MENUITEM "S&alvar Como",                    ID_FILE_SAVE_AS
+            //MENUITEM "Salvar &Todos",                   ID_FILE_SAVE_ALL
+            //MENUITEM "&Clonar",                      ID_FILE_CLONE
+            //MENUITEM SEPARATOR
+            //MENUITEM "&Fechar",                      ID_FILE_CLOSE
+            //MENUITEM "Fechar To&dos",                  ID_FILE_CLOSE_ALL
+            //MENUITEM SEPARATOR
+        MENUITEM "Sa&ir",                                ID_FILE_EXIT
+    }
+    //POPUP "&Edit"
+    // {
+    //    MENUITEM "C&ut",                        ID_EDIT_CUT
+    //    MENUITEM "&Copy",                       ID_EDIT_COPY
+    //    MENUITEM "&Paste",                      ID_EDIT_PASTE
+    // }
+    //POPUP "&Imagem"
+    // {
+    //    POPUP "DataType"
+    //    {
+    //        MENUITEM "DT_&IDX_8",                   ID_DT_IDX_8
+    //        MENUITEM "DT_IDXA_8",                   ID_DT_IDXA_8
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_&L_8",                     ID_DT_L_8
+    //        MENUITEM "DT_L&A_8",                    ID_DT_LA_8
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_&RGB_8",                   ID_DT_RGB_8
+    //        MENUITEM "DT_B&GR_8",                   ID_DT_BGR_8
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_RG&BA_8",                  ID_DT_RGBA_8
+    //        MENUITEM "DT_ARGB_8",                   ID_DT_ARGB_8
+    //        MENUITEM "DT_BGRA_8",                   ID_DT_BGRA_8
+    //        MENUITEM "DT_ABGR_8",                   ID_DT_ABGR_8
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_L_16",                     ID_DT_L_16
+    //        MENUITEM "DT_LA_16",                    ID_DT_LA_16
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_RGB_16",                   ID_DT_RGB_16
+    //        MENUITEM "DT_BGR_16",                   ID_DT_BGR_16
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_RGBA_16",                  ID_DT_RGBA_16
+    //        MENUITEM "DT_ARGB_16",                  ID_DT_ARGB_16
+    //        MENUITEM "DT_BGRA_16",                  ID_DT_BGRA_16
+    //        MENUITEM "DT_ABGR_16",                  ID_DT_ABGR_16
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_L_32",                     ID_DT_L_32
+    //        MENUITEM "DT_LA_32",                    ID_DT_LA_32
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_RGB_32",                   ID_DT_RGB_32
+    //        MENUITEM "DT_BGR_32",                   ID_DT_BGR_32
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_RGBA_32",                  ID_DT_RGBA_32
+    //        MENUITEM "DT_ARGB_32",                  ID_DT_ARGB_32
+    //        MENUITEM "DT_BGRA_32",                  ID_DT_BGRA_32
+    //        MENUITEM "DT_ABGR_32",                  ID_DT_ABGR_32
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "&Pack",                       ID_DT_PACK
+    //        MENUITEM "&Unpack",                     ID_DT_UNPACK
+    //    }
+    //    POPUP "Color FX"
+    //    {
+    //        MENUITEM "RGB &Original",               ID_IMAGEM_RGB
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "Gray &Human Perceptive",      ID_IMAGEM_GRAY_HUMAN
+    //        MENUITEM "Gray H&uman Simplified",      ID_IMAGEM_GRAY_HUMAN_SIMPLIFIED
+    //        MENUITEM "Gray &D3C",                   ID_IMAGEM_GRAY_D3
+    //        MENUITEM "Gray Pdf &Book",              ID_IMAGEM_GRAY_PDF
+    //        MENUITEM "Gray Pdf Book e D3 &Simplified", ID_IMAGEM_GRAY_PDF_SIMPLIFIED
+    //        MENUITEM "Gray &565",                   ID_IMAGEM_GRAY565
+    //        MENUITEM "Gray &Media",                 ID_IMAGEM_GRAY333
+    //        MENUITEM "Gray &Ajustado",              ID_IMAGEM_GRAY_AJ
+    //        MENUITEM "Gray &Personalizado",         ID_IMAGEM_GRAY_PERSONAL
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "Mul&tipli Alpha",             ID_IMAGEM_MULTIPLIALPHA
+    //    }
+    //    POPUP "Transformation"
+    //    {
+    //        MENUITEM "Flip &Vertical",              ID_IMAGEM_FLIP_VERTICAL
+    //        MENUITEM "Flip &Horizontal",            ID_IMAGEM_FLIP_HORIZONTAL
+    //        MENUITEM "Flip H&orizontal + Vertical", ID_IMAGEM_FLIP_HV
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "&Rotate 90",                  ID_IMAGEM_ROTATE90
+    //        MENUITEM "Ro&tate -90",                 ID_IMAGEM_ROTATE_90
+    //        MENUITEM "Rotate &180",                 ID_IMAGEM_ROTATE180
+    //    }
+    //    MENUITEM SEPARATOR
+    //    MENUITEM "&Make 2000 randon conversion",    ID_RANDON_CONV
+    //    MENUITEM "&Show convList",                  ID_SHOW_CONVLIST
+    // }
+    //POPUP "&Help"
+    // {
+    POPUP "&Visualização"
+    {
+        POPUP "&Modo de Amostragem"
+        {
+            MENUITEM "&HALFTONE",							ID_SBM1
+            MENUITEM "&COLORONCOLOR",						ID_SBM2
+            MENUITEM "&BLACKONWHITE",						ID_SBM3
+            MENUITEM "&WHITEONBLACK",						ID_SBM4
+        }
+        POPUP "&Alinhamento"
+        {
+            MENUITEM "&Centralizado",                       ID_ALING_CENTER
+            MENUITEM "&Superior esquerdo",                  ID_ALING_TOPLEFT
+            MENUITEM "Superior &direita",                   ID_ALING_TOPRIGHT
+            MENUITEM "Inferior &esquerdo",                  ID_ALING_LOWLEFT
+            MENUITEM "&Inferior direita",                   ID_ALING_LOWRIGHT
+        }
+        POPUP "Modo de &Reescala"
+        {
+            MENUITEM "&Tamanho fixo",                   ID_STRETCH_FIXED// Maintain image aspect and size
+            MENUITEM "&Manter visível",                 ID_STRETCH_ADAPTIVE // Reescale image to fit in window size when window < image, maintain image aspect
+            MENUITEM "&Reescalar proporcionalmente",    ID_STRETCH_ADAPTIVE2 // Reescale image to fit in entire window size, maintain image aspect
+            MENUITEM "&Esticar para tela",              ID_STRETCH_STRETCH // Stretch image to fit in entire window size, discard aspect
+        }
+        //POPUP "Modo de Bitmap"
+        // {
+        //       MENUITEM "SRCCOPY"                , ID_BMP_1
+        //       MENUITEM "SRCPAINT"               , ID_BMP_2
+        //       MENUITEM "SRCAND"                 , ID_BMP_3
+        //       MENUITEM "SRCINVERT"              , ID_BMP_4
+        //       MENUITEM "SRCERASE"               , ID_BMP_5
+        //       MENUITEM "NOTSRCCOPY"             , ID_BMP_6
+        //       MENUITEM "NOTSRCERASE"            , ID_BMP_7
+        //       MENUITEM "MERGECOPY"              , ID_BMP_8
+        //       MENUITEM "MERGEPAINT"             , ID_BMP_9
+        //       MENUITEM "PATCOPY"                , ID_BMP_10
+        //       MENUITEM "PATPAINT"               , ID_BMP_11
+        //       MENUITEM "PATINVERT"              , ID_BMP_12
+        //       MENUITEM "DSTINVERT"              , ID_BMP_13
+        //       MENUITEM "BLACKNESS"              , ID_BMP_14
+        //       MENUITEM "WHITENESS"              , ID_BMP_15
+        // }
+        //POPUP "mask"
+        // {
+        //       MENUITEM "SRCCOPY"                , ID_MASK_1
+        //       MENUITEM "SRCPAINT"               , ID_MASK_2
+        //       MENUITEM "SRCAND"                 , ID_MASK_3
+        //       MENUITEM "SRCINVERT"              , ID_MASK_4
+        //       MENUITEM "SRCERASE"               , ID_MASK_5
+        //       MENUITEM "NOTSRCCOPY"             , ID_MASK_6
+        //       MENUITEM "NOTSRCERASE"            , ID_MASK_7
+        //       MENUITEM "MERGECOPY"              , ID_MASK_8
+        //       MENUITEM "MERGEPAINT"             , ID_MASK_9
+        //       MENUITEM "PATCOPY"                , ID_MASK_10
+        //       MENUITEM "PATPAINT"               , ID_MASK_11
+        //       MENUITEM "PATINVERT"              , ID_MASK_12
+        //       MENUITEM "DSTINVERT"              , ID_MASK_13
+        //       MENUITEM "BLACKNESS"              , ID_MASK_14
+        //       MENUITEM "WHITENESS"              , ID_MASK_15
+        // }
+        POPUP "&Cor de fundo"
+        {
+               MENUITEM " Xadrez"                    , ID_BG_COLOR_1
+               MENUITEM " Branco"                    , ID_BG_COLOR_2
+               MENUITEM " Cinza claro"               , ID_BG_COLOR_3
+               MENUITEM " Cinza"                     , ID_BG_COLOR_4
+               MENUITEM " Cinza escuro"              , ID_BG_COLOR_5
+               MENUITEM " Preto"                     , ID_BG_COLOR_6
+               MENUITEM SEPARATOR                        
+               MENUITEM " Vermelho"                  , ID_BG_COLOR_7
+               MENUITEM " Verde"                     , ID_BG_COLOR_8
+               MENUITEM " Azul"                      , ID_BG_COLOR_9
+               MENUITEM SEPARATOR                         
+               MENUITEM " Amarelo"                   , ID_BG_COLOR_10
+               MENUITEM " Ciano"                     , ID_BG_COLOR_11
+               MENUITEM " Magenta"                   , ID_BG_COLOR_12
+               MENUITEM SEPARATOR                         
+               MENUITEM " Laranja"                   , ID_BG_COLOR_13
+               MENUITEM " Rosa"                      , ID_BG_COLOR_14
+               MENUITEM " Turb"                      , ID_BG_COLOR_15
+               MENUITEM " Roxo"                      , ID_BG_COLOR_16
+               MENUITEM SEPARATOR                         
+               MENUITEM " Personalizado"             , ID_BG_COLOR_17
+        }
+        POPUP "&Transparencia"
+        {
+               MENUITEM "&Transparente"                 , ID_TRANSPARENCY_TRANSP
+               MENUITEM "&Premultiplicar transparencia" , ID_TRANSPARENCY_PREMUL
+               MENUITEM "&Sem transparencia"            , ID_TRANSPARENCY_OPAQUE
+        }
+        MENUITEM "Mostrar &borda"                       , ID_BORDER CHECKED
+        MENUITEM "Redfinir &Zoom"                       , ID_DEFZOOM
+    }
+    //MENUITEM "&Cor de fundo",							ID_BACKGROUND_COLOR
+    MENUITEM "&Sobre"                                   , ID_HELP_ABOUT
+}
+
+#else
+
+IDR_MYMENU MENU
+{
+    POPUP "&File"
+    {
+        MENUITEM "&Open",                               ID_FILE_OPEN
+            //MENUITEM SEPARATOR
+            //MENUITEM "&Save",                       ID_FILE_SAVE
+            //MENUITEM "Save &As",                    ID_FILE_SAVE_AS
+            //MENUITEM "Sa&ve All",                   ID_FILE_SAVE_ALL
+            //MENUITEM "Clo&ne",                      ID_FILE_CLONE
+            //MENUITEM SEPARATOR
+            //MENUITEM "&Close",                      ID_FILE_CLOSE
+            //MENUITEM "Close A&ll",                  ID_FILE_CLOSE_ALL
+            //MENUITEM SEPARATOR
+        MENUITEM "E&xit",                               ID_FILE_EXIT
+    }
+    //POPUP "&Edit"
+    // {
+    //    MENUITEM "C&ut",                        ID_EDIT_CUT
+    //    MENUITEM "&Copy",                       ID_EDIT_COPY
+    //    MENUITEM "&Paste",                      ID_EDIT_PASTE
+    // }
+    //POPUP "&Imagem"
+    // {
+    //    POPUP "DataType"
+    //    {
+    //        MENUITEM "DT_&IDX_8",                   ID_DT_IDX_8
+    //        MENUITEM "DT_IDXA_8",                   ID_DT_IDXA_8
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_&L_8",                     ID_DT_L_8
+    //        MENUITEM "DT_L&A_8",                    ID_DT_LA_8
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_&RGB_8",                   ID_DT_RGB_8
+    //        MENUITEM "DT_B&GR_8",                   ID_DT_BGR_8
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_RG&BA_8",                  ID_DT_RGBA_8
+    //        MENUITEM "DT_ARGB_8",                   ID_DT_ARGB_8
+    //        MENUITEM "DT_BGRA_8",                   ID_DT_BGRA_8
+    //        MENUITEM "DT_ABGR_8",                   ID_DT_ABGR_8
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_L_16",                     ID_DT_L_16
+    //        MENUITEM "DT_LA_16",                    ID_DT_LA_16
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_RGB_16",                   ID_DT_RGB_16
+    //        MENUITEM "DT_BGR_16",                   ID_DT_BGR_16
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_RGBA_16",                  ID_DT_RGBA_16
+    //        MENUITEM "DT_ARGB_16",                  ID_DT_ARGB_16
+    //        MENUITEM "DT_BGRA_16",                  ID_DT_BGRA_16
+    //        MENUITEM "DT_ABGR_16",                  ID_DT_ABGR_16
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_L_32",                     ID_DT_L_32
+    //        MENUITEM "DT_LA_32",                    ID_DT_LA_32
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_RGB_32",                   ID_DT_RGB_32
+    //        MENUITEM "DT_BGR_32",                   ID_DT_BGR_32
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "DT_RGBA_32",                  ID_DT_RGBA_32
+    //        MENUITEM "DT_ARGB_32",                  ID_DT_ARGB_32
+    //        MENUITEM "DT_BGRA_32",                  ID_DT_BGRA_32
+    //        MENUITEM "DT_ABGR_32",                  ID_DT_ABGR_32
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "&Pack",                       ID_DT_PACK
+    //        MENUITEM "&Unpack",                     ID_DT_UNPACK
+    //    }
+    //    POPUP "Color FX"
+    //    {
+    //        MENUITEM "RGB &Original",               ID_IMAGEM_RGB
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "Gray &Human Perceptive",      ID_IMAGEM_GRAY_HUMAN
+    //        MENUITEM "Gray H&uman Simplified",      ID_IMAGEM_GRAY_HUMAN_SIMPLIFIED
+    //        MENUITEM "Gray &D3C",                   ID_IMAGEM_GRAY_D3
+    //        MENUITEM "Gray Pdf &Book",              ID_IMAGEM_GRAY_PDF
+    //        MENUITEM "Gray Pdf Book e D3 &Simplified", ID_IMAGEM_GRAY_PDF_SIMPLIFIED
+    //        MENUITEM "Gray &565",                   ID_IMAGEM_GRAY565
+    //        MENUITEM "Gray &Media",                 ID_IMAGEM_GRAY333
+    //        MENUITEM "Gray &Ajustado",              ID_IMAGEM_GRAY_AJ
+    //        MENUITEM "Gray &Personalizado",         ID_IMAGEM_GRAY_PERSONAL
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "Mul&tipli Alpha",             ID_IMAGEM_MULTIPLIALPHA
+    //    }
+    //    POPUP "Transformation"
+    //    {
+    //        MENUITEM "Flip &Vertical",              ID_IMAGEM_FLIP_VERTICAL
+    //        MENUITEM "Flip &Horizontal",            ID_IMAGEM_FLIP_HORIZONTAL
+    //        MENUITEM "Flip H&orizontal + Vertical", ID_IMAGEM_FLIP_HV
+    //        MENUITEM SEPARATOR
+    //        MENUITEM "&Rotate 90",                  ID_IMAGEM_ROTATE90
+    //        MENUITEM "Ro&tate -90",                 ID_IMAGEM_ROTATE_90
+    //        MENUITEM "Rotate &180",                 ID_IMAGEM_ROTATE180
+    //    }
+    //    MENUITEM SEPARATOR
+    //    MENUITEM "&Make 2000 randon conversion",    ID_RANDON_CONV
+    //    MENUITEM "&Show convList",                  ID_SHOW_CONVLIST
+    // }
+    //POPUP "&Help"
+    // {
+    POPUP "&StretchBltMode"
+    {
+        MENUITEM "&HALFTONE",							ID_SBM1
+        MENUITEM "&COLORONCOLOR",						ID_SBM2
+        MENUITEM "&BLACKONWHITE",						ID_SBM3
+        MENUITEM "&WHITEONBLACK",						ID_SBM4
+    }
+    POPUP "&Alingment"
+    {
+        MENUITEM "&Center",                             ID_ALING_CENTER
+        MENUITEM "&Top Left",                           ID_ALING_TOPLEFT
+        MENUITEM "&Top Right",                          ID_ALING_TOPRIGHT
+        MENUITEM "&Lower Left",                         ID_ALING_LOWLEFT
+        MENUITEM "&Lower Right",                        ID_ALING_LOWRIGHT
+    }
+    POPUP "&Stretch Mode"
+    {
+        // Maintain image aspect and size
+        MENUITEM "&Fixed",                              ID_STRETCH_FIXED
+        // Reescale image to fit in window size when window < image, maintain image aspect
+        MENUITEM "&Maintain visible",                   ID_STRETCH_ADAPTIVE
+        // Reescale image to fit in entire window size, maintain image aspect
+        MENUITEM "Scaling &Proportionally",             ID_STRETCH_ADAPTIVE2
+        // Stretch image to fit in entire window size, discard aspect
+        MENUITEM "&Stretch to window",                  ID_STRETCH_STRETCH
+    }
+    MENUITEM "Abo&ut",							        ID_HELP_ABOUT
+}
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOGEX 30, 30, 250, 76
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_PALETTEWINDOW | WS_EX_TRANSPARENT
+#ifdef _PT_BR
+CAPTION "Sobre TRK Imagem View"
+#else
+CAPTION "About TRK Imagem View"
+#endif
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+{
+    DEFPUSHBUTTON   "&OK",IDOK,185,18,50,24
+    //PUSHBUTTON      "&Cancel",IDCANCEL,185,35,50,14
+    GROUPBOX        "Imagem View",IDC_STATIC,7,7,236,62
+#ifdef _PT_BR
+    CTEXT           "Um programa para demonstrar a carregamento e exibição dos arquivos Truevision Targa\r\n\r\nCopyleft © 2018 - 2020 TRK Tecnologias\r\nProgramador: Thiarles R. K.",IDC_STATIC,16,18,155,43
+#else
+    CTEXT           "A program to demonstrate the loading and display of Truevision Targa files\r\n\r\nCopyleft © 2018 - 2020 TRK Tecnologies\r\nProgrammer: Thiarles R. K.",IDC_STATIC,16,18,155,43
+#endif
+}
+
+IDD_GET_RGB_BACK DIALOGEX 0, 0, 193, 142
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_SYSMENU
+EXSTYLE WS_EX_PALETTEWINDOW | WS_EX_TRANSPARENT
+CAPTION "RGB Scale"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+{
+        LTEXT           "R: ", IDC_STATIC, 11, 13, 8, 8
+        LTEXT           "G: ", IDC_STATIC, 11, 31, 8, 8
+        LTEXT           "B: ", IDC_STATIC, 11, 49, 8, 8
+        PUSHBUTTON      "Ok", IDC_EDIT_BG_OK, 7, 121, 50, 14
+        PUSHBUTTON      "Cancel", IDC_EDIT_BG_CANCEL, 136, 121, 50, 14
+        EDITTEXT        IDC_EDIT_BG_R, 22, 10, 99, 14, ES_AUTOHSCROLL | ES_NUMBER
+        EDITTEXT        IDC_EDIT_BG_G, 22, 28, 99, 14, ES_AUTOHSCROLL | ES_NUMBER
+        EDITTEXT        IDC_EDIT_BG_B, 22, 47, 99, 14, ES_AUTOHSCROLL | ES_NUMBER
+}
+
+
+
+IDD_GET_RGB DIALOGEX 0, 0, 193, 142
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_PALETTEWINDOW | WS_EX_TRANSPARENT
+CAPTION "RGB Scale"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+{
+    LTEXT           "R: ",IDC_STATIC,11,13,8,8
+    LTEXT           "G: ",IDC_STATIC,11,31,8,8
+    LTEXT           "B: ",IDC_STATIC,11,49,8,8
+    PUSHBUTTON      "Ok",IDC_OK,7,121,50,14
+    PUSHBUTTON      "Reset",IDC_RESET,75,121,50,14
+    PUSHBUTTON      "Cancel",IDC_CANCEL,136,121,50,14
+    PUSHBUTTON      "Human",IDC_H,132,8,54,14
+    PUSHBUTTON      "Human 2",IDC_H2,132,22,54,14
+    PUSHBUTTON      "Human Simple",IDC_HS,132,36,54,14
+    PUSHBUTTON      "D3",IDC_D3,132,51,54,14
+    PUSHBUTTON      "D3 Simple",IDC_D3S,132,66,54,14
+    PUSHBUTTON      "565",IDC_565,132,80,54,14
+    PUSHBUTTON      "Median",IDC_MEDIAN,132,95,54,14
+    EDITTEXT        IDC_EDITR,22,10,99,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDITG,22,28,99,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDITB,22,47,99,14,ES_AUTOHSCROLL | ES_NUMBER
+}
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS
+{
+    VK_F1,          ID_HELP_ABOUT,             VIRTKEY,                   NOINVERT
+    "O",            ID_FILE_OPEN,              VIRTKEY,          CONTROL, NOINVERT
+    //"S",            ID_FILE_SAVE,              VIRTKEY,          CONTROL, NOINVERT
+    //"S",            ID_FILE_SAVE_AS,           VIRTKEY, SHIFT,   CONTROL, NOINVERT
+    //"A",            ID_FILE_SAVE_ALL,          VIRTKEY, SHIFT,   CONTROL, NOINVERT
+    //"W",            ID_FILE_CLOSE,             VIRTKEY,          CONTROL, NOINVERT
+    //"W",            ID_FILE_CLOSE_ALL,         VIRTKEY, SHIFT,   CONTROL, NOINVERT
+    //"C",            ID_EDIT_COPY,              VIRTKEY,          CONTROL, NOINVERT
+    //"X",            ID_EDIT_CUT,               VIRTKEY,          CONTROL, NOINVERT
+    //"V",            ID_EDIT_PASTE,             VIRTKEY,          CONTROL, NOINVERT
+    //"M",            ID_IMAGEM_MULTIPLIALPHA,   VIRTKEY,          CONTROL, NOINVERT
+    //VK_OEM_COMMA,   ID_IMAGEM_FLIP_HORIZONTAL, VIRTKEY, SHIFT,            NOINVERT
+    //VK_OEM_PERIOD,  ID_IMAGEM_FLIP_HORIZONTAL, VIRTKEY, SHIFT,            NOINVERT
+    //VK_LEFT,        ID_IMAGEM_ROTATE_90,       VIRTKEY,                   NOINVERT
+    //VK_RIGHT,       ID_IMAGEM_ROTATE90,        VIRTKEY,                   NOINVERT
+    //VK_UP,          ID_IMAGEM_FLIP_VERTICAL,   VIRTKEY,                   NOINVERT
+    //VK_DOWN,        ID_IMAGEM_ROTATE180,       VIRTKEY,                   NOINVERT
+    //"R",            ID_DT_RGB_8,               VIRTKEY,                   NOINVERT
+    //"L",            ID_DT_L_8,                 VIRTKEY,                   NOINVERT
+    //
+    //"Q",            ID_DT_L_8,                 VIRTKEY,                   NOINVERT
+    //"W",            ID_DT_LA_8,                VIRTKEY,                   NOINVERT
+    //
+    //"E",            ID_DT_RGB_8,               VIRTKEY,                   NOINVERT
+    //"R",            ID_DT_BGR_8,               VIRTKEY,                   NOINVERT
+    //
+    //"T",            ID_DT_RGBA_8,              VIRTKEY,                   NOINVERT
+    //"Y",            ID_DT_BGRA_8,              VIRTKEY,                   NOINVERT
+    //"U",            ID_DT_ARGB_8,              VIRTKEY,                   NOINVERT
+    //"I",            ID_DT_ABGR_8,              VIRTKEY,                   NOINVERT
+    //
+    //
+    //"O",            ID_DT_L_16,                VIRTKEY,                   NOINVERT
+    //"P",            ID_DT_LA_16,               VIRTKEY,                   NOINVERT
+    //
+    //"A",            ID_DT_RGB_16,              VIRTKEY,                   NOINVERT
+    //"S",            ID_DT_BGR_16,              VIRTKEY,                   NOINVERT
+    //
+    //"D",            ID_DT_RGBA_16,             VIRTKEY,                   NOINVERT
+    //"F",            ID_DT_BGRA_16,             VIRTKEY,                   NOINVERT
+    //"G",            ID_DT_ARGB_16,             VIRTKEY,                   NOINVERT
+    //"H",            ID_DT_ABGR_16,             VIRTKEY,                   NOINVERT
+    //
+    //
+    //"J",            ID_DT_L_32,                VIRTKEY,                   NOINVERT
+    //"K",            ID_DT_LA_32,               VIRTKEY,                   NOINVERT
+    //
+    //"L",            ID_DT_RGB_32,              VIRTKEY,                   NOINVERT
+    //"Ç",            ID_DT_BGR_32,              VIRTKEY,                   NOINVERT
+    //
+    //"Z",            ID_DT_RGBA_32,             VIRTKEY,                   NOINVERT
+    //"X",            ID_DT_BGRA_32,             VIRTKEY,                   NOINVERT
+    //"C",            ID_DT_ARGB_32,             VIRTKEY,                   NOINVERT
+    //"V",            ID_DT_ABGR_32,             VIRTKEY,                   NOINVERT
+    //
+    //"N",            ID_DT_UNPACK,              VIRTKEY,                   NOINVERT
+    //"M",            ID_DT_PACK,                VIRTKEY,                   NOINVERT
+    //
+    //
+    //
+    //"Q",            ID_DT_L_8,                 VIRTKEY,                   NOINVERT
+    //"W",            ID_DT_LA_8,                VIRTKEY,                   NOINVERT
+    //
+    //"E",            ID_DT_BGR_8,               VIRTKEY,                   NOINVERT
+    //
+    //"R",            ID_DT_ABGR_8,              VIRTKEY,                   NOINVERT
+    //
+    //
+    //"A",            ID_DT_L_16,                VIRTKEY,                   NOINVERT
+    //"S",            ID_DT_LA_16,               VIRTKEY,                   NOINVERT
+    //
+    //"D",            ID_DT_BGR_16,              VIRTKEY,                   NOINVERT
+    //
+    //"F",            ID_DT_ABGR_16,             VIRTKEY,                   NOINVERT
+    //
+    //
+    //"Z",            ID_DT_L_32,                VIRTKEY,                   NOINVERT
+    //"X",            ID_DT_LA_32,               VIRTKEY,                   NOINVERT
+    //
+    //"C",            ID_DT_BGR_32,              VIRTKEY,                   NOINVERT
+    //
+    //"V",            ID_DT_ABGR_32,             VIRTKEY,                   NOINVERT
+    //
+    //
+    //
+    //"N",            ID_DT_UNPACK,              VIRTKEY,                   NOINVERT
+    //"M",            ID_DT_PACK,                VIRTKEY,                   NOINVERT
+}
+
+

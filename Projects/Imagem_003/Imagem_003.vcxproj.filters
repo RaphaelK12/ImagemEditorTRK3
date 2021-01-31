@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\class">
+      <UniqueIdentifier>{7061ea9e-3e40-4063-9bec-8a110c7f14a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\class">
+      <UniqueIdentifier>{473d13e8-f0e2-45da-9750-11685581abe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Loaders">
+      <UniqueIdentifier>{f926ec91-c891-4a79-8702-6bcbd3dd38f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\cls">
+      <UniqueIdentifier>{f51d6417-9c52-4348-9e25-2fff81318940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\cls">
+      <UniqueIdentifier>{ba1dcf4b-5bfe-4e1e-875a-a8e9f9c777c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\pixels">
+      <UniqueIdentifier>{95659b0e-29f8-4516-8399-f0df7ff4c777}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Imagem_003\dllmain.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\pch.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\Loader_jpeg.cpp">
+      <Filter>Arquivos de Origem\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\Loader_PBM.cpp">
+      <Filter>Arquivos de Origem\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\Loader_PCX.cpp">
+      <Filter>Arquivos de Origem\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\Loader_PNG.cpp">
+      <Filter>Arquivos de Origem\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\Loader_TGA.cpp">
+      <Filter>Arquivos de Origem\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\Loaders.cpp">
+      <Filter>Arquivos de Origem\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\Structs.cpp">
+      <Filter>Arquivos de Origem\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\img_st.cpp">
+      <Filter>Arquivos de Origem\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\img_mips.cpp">
+      <Filter>Arquivos de Origem\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\img_face.cpp">
+      <Filter>Arquivos de Origem\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\img_basis.cpp">
+      <Filter>Arquivos de Origem\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\img_array.cpp">
+      <Filter>Arquivos de Origem\class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\Imagem_003.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\Convert.cpp">
+      <Filter>Arquivos de Origem\cls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Imagem_003\pixels.cpp">
+      <Filter>Arquivos de Origem\cls</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Imagem_003\pch.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\Definitions.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\Enums.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\Loaders.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\NumDef.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\stdafx.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\targetver.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\temp.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\Util.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\img_array.h">
+      <Filter>Arquivos de Cabeçalho\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\img_basis.h">
+      <Filter>Arquivos de Cabeçalho\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\img_face.h">
+      <Filter>Arquivos de Cabeçalho\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\img_mips.h">
+      <Filter>Arquivos de Cabeçalho\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\stconv.h">
+      <Filter>Arquivos de Cabeçalho\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\sterr.h">
+      <Filter>Arquivos de Cabeçalho\class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\Imagem_003.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\framework.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\Structs.h">
+      <Filter>Arquivos de Cabeçalho\cls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Imagem_003\Generated\_GEN_Structs.hpp">
+      <Filter>Arquivos de Cabeçalho\cls</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Source\Imagem_003\Generated\_GEN_Convert.inl">
+      <Filter>Arquivos de Cabeçalho\cls</Filter>
+    </None>
+    <None Include="..\..\Source\Imagem_003\Generated\_GEN_InfoDataFormat.inl">
+      <Filter>Arquivos de Cabeçalho\cls</Filter>
+    </None>
+  </ItemGroup>
+</Project>
